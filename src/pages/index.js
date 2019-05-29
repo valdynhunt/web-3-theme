@@ -1,13 +1,16 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Footer from '../components/footer'
 
 const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-  </div>
+
+  <main>
+    <h1>Web 3 Starter</h1>
+
+{/* Stateless Footer Component */}
+    <Footer/>
+  </main>
+
 )
 
 export default IndexPage

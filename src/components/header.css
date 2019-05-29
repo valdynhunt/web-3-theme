@@ -1,0 +1,11 @@
+header {
+    background: teal;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+header a {
+    margin: 0 1em;
+}
